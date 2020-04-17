@@ -24,9 +24,9 @@ class createOrderRequest extends FormRequest
     public function rules()
     {
         return [
-		'dataOrders' => 'required',
-		'dataIspolnenia' => 'required',
-		'clients_id' => 'required',
+    		'DataOrders' => 'required',
+    		'DataIspolnenia' => 'required',
+    		'clients_id' => 'required'
         ];
     }
 }
